@@ -5,5 +5,6 @@ http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
     res.write(data);
     res.end();
+console.log("hiiiii");
   });
 }).listen(8080);
